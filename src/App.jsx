@@ -1,27 +1,8 @@
+import React from 'react'
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
-
-
-function App()
-{
-  const {t , i18n} = useTranslation()
-
-  const changeLanguage = (language) =>
-  {
-    i18n.language(language)
-  }
-
-  useEffect(() => {
-    AOS.init();
-  }, [])
-
+const App = () => {
   return (
-    <>
-      Hello from Tajikistan!
-    </>
+    <div>Hello Bro How are you today!</div>
   )
 }
 
