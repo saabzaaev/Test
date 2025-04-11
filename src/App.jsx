@@ -9,6 +9,7 @@ const App = () => {
       <p className="text-[#c2c2c2] mt-6 text-sm sm:text-base md:text-lg tracking-wide font-light opacity-80">
         Wishing without action leads nowhere. Thoughtful goals, backed by effort, create real change. Focus on what you can do, not just what you want.
       </p>
+      <button className='p-[12px_16px] bg-[#ff6200] leading-3 text-[18px] text-white rounded-lg mt-2'>Get started</button>
     </div>
   )
 }
